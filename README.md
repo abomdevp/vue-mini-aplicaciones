@@ -1,45 +1,57 @@
-# vue-frontend-bootcamp
+# Vue Mini Aplicaciones Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Colección de mini aplicaciones desarrolladas con Vue 3 como proyecto de práctica y portafolio.  
+Este proyecto reúne distintos módulos frontend para demostrar manejo de reactividad, consumo de APIs, comunicación entre componentes y navegación SPA.
 
-## Recommended IDE Setup
+## Demo
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+    vue-mini-aplicaciones.vercel.app
 
-## Recommended Browser Setup
+## Características
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Habit Tracker con persistencia en localStorage
+- Movie Finder con consumo de API externa
+- Coffee Shop con carrito dinámico
+- Navegación SPA con Vue Router
+- Componentes reutilizables
+- Animaciones básicas para mejorar la experiencia de usuario
 
-## Customize configuration
+## Tecnologías utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue 3
+- Vite
+- Vue Router
+- Axios
+- CSS
 
-## Project Setup
+## Módulos del proyecto
 
-```sh
-npm install
-```
+### 1. Habit Tracker
+Permite agregar, marcar y eliminar hábitos diarios.  
+Los datos se guardan en localStorage para mantenerse al recargar la página.
 
-### Compile and Hot-Reload for Development
+### 2. Movie Finder
+Buscador de películas conectado a una API externa.  
+Incluye búsqueda por texto, manejo de estado de carga y mensaje cuando no hay resultados.
 
-```sh
-npm run dev
-```
+### 3. Coffee Shop
+Mini tienda de cafés con carrito interactivo.  
+Permite agregar productos, aumentar o disminuir cantidades, eliminar items y calcular el total de la compra.
 
-### Compile and Minify for Production
+## Instalación y uso
 
-```sh
-npm run build
-```
+Clona el repositorio:
 
-### Lint with [ESLint](https://eslint.org/)
+    git clone https://github.com/abomdevp/vue-mini-aplicaciones.git
 
-```sh
-npm run lint
-```
-# vue-mini-aplicaciones
+Entra al proyecto:
+
+    cd vue-frontend-lab
+
+Instala dependencias:
+
+    npm install
+
+Ejecuta el servidor de desarrollo:
+
+    npm run dev
