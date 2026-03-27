@@ -26,15 +26,15 @@ Este proyecto reúne distintos módulos frontend para demostrar manejo de reacti
 
 ## Módulos del proyecto
 
-### 1. Habit Tracker
+### 1. Seguimiento de Hábitos
 Permite agregar, marcar y eliminar hábitos diarios.  
 Los datos se guardan en localStorage para mantenerse al recargar la página.
 
-### 2. Movie Finder
+### 2. Buscador de Películas
 Buscador de películas conectado a una API externa.  
 Incluye búsqueda por texto, manejo de estado de carga y mensaje cuando no hay resultados.
 
-### 3. Coffee Shop
+### 3. Tienda de Café
 Mini tienda de cafés con carrito interactivo.  
 Permite agregar productos, aumentar o disminuir cantidades, eliminar items y calcular el total de la compra.
 
